@@ -1,0 +1,14 @@
+package fundamentos_basicos;
+
+public class ConversoesTiposNumericos {
+	
+	public static void main(String[] args) {
+		double a = 1;
+		System.out.println(a);
+		
+		float b = (float) 1.0224; // Conversão explicita
+		System.out.println(b);
+		
+	}
+
+}

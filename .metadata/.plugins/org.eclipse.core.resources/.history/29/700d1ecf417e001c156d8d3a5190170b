@@ -1,0 +1,25 @@
+package desafio.conversao01;
+
+import java.util.Scanner;
+
+public class DesafioConversao {
+	
+	public static void main(String[] args) {
+		
+		System.out.println("/n/n********* DESAFIO CONVERSÃO - MÉDIA SALARIAL 3 MESES *********");
+		
+		Scanner scan = new Scanner(System.in);
+		
+		System.out.println("/nDigite o salário do primeiro mês: ");
+		double sal1 = scan.nextDouble();
+		
+		System.out.println("/nDigite o salário do segundo mês: ");
+		double sal2 = scan.nextDouble();
+		
+		System.out.println("/nDigite o salário do terceiro mês: ");
+		double sal3 = scan.nextDouble();
+		
+		
+	}
+
+}

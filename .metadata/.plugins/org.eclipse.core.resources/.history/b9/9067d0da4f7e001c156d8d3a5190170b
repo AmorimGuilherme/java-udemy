@@ -1,0 +1,35 @@
+package desafio.aritmeticos;
+
+// EXPRESSÃO --> { [6*(3+2)]²/(3*2) - [(1-5)*(2-7)]²/2}³ / 10³
+
+public class DesafioAritmeticos {
+
+	public static void main(String[] args) {
+		
+		int a = 6;
+		int b = 3;
+		int c = 2;
+		int d = 2;
+		int e = 3;
+		int f = 2;
+		int g = 1;
+		int h = 5;
+		int i = 2;
+		int j = 7;
+		int k = 2;
+		int l = 2;
+		int m = 3;
+		int n = 10;
+		int o = 3;
+		
+		int exp1 = (a*(b+c));
+		System.out.println(exp1);
+		
+		double exp2 = Math.pow(exp1, d);
+		System.out.println(exp2);
+		
+		
+		
+		
+	}
+}

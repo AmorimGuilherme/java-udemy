@@ -1,0 +1,27 @@
+package desafio.conversao01;
+
+import java.util.Scanner;
+
+public class DesafioConversao {
+	
+	public static void main(String[] args) {
+		
+		System.out.println("\n********* DESAFIO CONVERSÃO - MÉDIA SALARIAL TRIMESTRAL *********");
+		
+		Scanner scan = new Scanner(System.in);
+		
+		System.out.println("Digite o salário do primeiro mês: R$");
+		float sal1 = scan.nextFloat();
+		
+		System.out.println("Digite o salário do segundo mês: R$");
+		float sal2 = scan.nextFloat();
+		
+		System.out.println("Digite o salário do terceiro mês: R$"); 
+		float sal3 = scan.nextFloat();
+		
+		float media = (sal1 + sal2 + sal3) / 3;
+		System.out.println("\nMédia salarial trimestral: R$" + media); 
+		
+	}
+
+}

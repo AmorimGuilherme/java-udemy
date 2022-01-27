@@ -1,0 +1,18 @@
+package fundamentos;
+
+// Exercício de conversão de temperatura °F para °C
+
+public class Temperatura {
+
+	public static void main(String[] args) {
+
+		final int numerador = 32;
+		final double divisor = 5/9.0;
+		double f = 38;
+		double c = (f - numerador) / (divisor);
+
+		System.out.println(f + "°F" + " é = " + c + "°C");
+
+	}
+
+}

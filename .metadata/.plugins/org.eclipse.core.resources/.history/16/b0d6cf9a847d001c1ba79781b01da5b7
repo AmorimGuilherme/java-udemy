@@ -1,0 +1,36 @@
+package fundamentos_basicos;
+
+import java.util.Scanner;
+
+public class Console {
+
+	public static void main(String[] args) {
+
+		System.out.println("Bom");
+		System.out.println(" dia!\n\n");
+
+		System.out.println("Bom");
+		System.out.println("dia!");
+
+		System.out.printf("Megasena: %d %d %d %d %d %d %n",
+				1, 34, 43, 23, 54, 34);
+		System.out.printf("Salário: %.1f%n", 2458.458);
+		System.out.printf("Nome: %s%n", "Guilherme");
+		
+		Scanner teclado = new Scanner(System.in);
+		
+		System.out.println("Digite o seu nome: ");
+		String nome = teclado.nextLine();
+		
+		System.out.println("\nSeu nome é: "+ nome);
+		
+		System.out.println("Digite o seu sobrenome: ");
+		String sobrenome = teclado.nextLine();
+		
+		System.out.println("\nSeu sobrenome é: "+ nome);
+		
+		System.out.printf("\nSeu nome completo é: %s %s", nome, sobrenome);;
+
+	}
+
+}
