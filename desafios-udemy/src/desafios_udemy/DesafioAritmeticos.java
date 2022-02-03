@@ -1,4 +1,4 @@
-package desafio.aritmeticos;
+package desafios_udemy;
 
 // EXPRESSÃO --> { [6*(3+2)]²/(3*2) - [((1-5)*(2-7))/2]²} ³/ 10³
 

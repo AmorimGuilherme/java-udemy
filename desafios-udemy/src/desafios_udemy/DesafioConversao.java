@@ -1,4 +1,4 @@
-package desafio.conversao01;
+package desafios_udemy;
 
 import java.util.Scanner;
 
